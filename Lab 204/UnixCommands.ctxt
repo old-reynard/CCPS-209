@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=UnixCommands
+comment0.text=\r\n\ class\ UnixCommands.\r\n\r\n\ @author\ Nikita\ Gerasimov\ \r\n\ @version\ 2018-02-22\r\n
+comment1.params=in
+comment1.target=int[]\ wc(java.io.Reader)
+comment2.params=in\ out\ lines
+comment2.target=void\ tail(java.io.Reader,\ java.io.Writer,\ int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

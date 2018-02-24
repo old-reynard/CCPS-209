@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ShakyTurtle
+comment0.text=\r\n\ A\ concrete\ decorator\ of\ Turtle\ that\ moves\ shakily\ so\ that\ the\r\n\ distance\ and\ angle\ are\ changed\ a\ small\ random\ amount.\r\n\ @author\ Ilkka\ Kokkarinen\r\n
+comment1.params=turtle\ shakiness
+comment1.target=ShakyTurtle(Turtle,\ double)
+comment1.text=\r\n\ Create\ a\ shaky\ version\ of\ the\ underlying\ turtle.\r\n\ @param\ turtle\ The\ underlying\ turtle\ to\ decorate\ to\ be\ shaky.\r\n\ @param\ shakiness\ The\ width\ of\ shakiness.\ 0.0\ equals\ no\ shaking.\r\n
+comment2.params=v
+comment2.target=double\ shake(double)
+comment3.params=dist
+comment3.target=void\ move(double)
+comment3.text=\r\n\ Move\ the\ turtle\ forward\ by\ the\ shaken\ version\ of\ the\ given\ distance.\r\n\ @param\ dist\ The\ distance\ to\ move\ forward.\r\n
+comment4.params=turnAngle
+comment4.target=void\ turn(double)
+comment4.text=\r\n\ Turn\ the\ turtle\ in\ place\ the\ shaken\ angle,\ measured\ in\ degrees.\ Positive\r\n\ angle\ turns\ the\ turtle\ left,\ while\ a\ negative\ angle\ turns\ it\ right.\r\n\ @param\ turnAngle\ The\ angle\ to\ turn.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

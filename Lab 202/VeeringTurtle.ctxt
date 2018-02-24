@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=VeeringTurtle
+comment0.text=\r\n\ class\ VeeringTurtle\ \r\n\r\n\ @author\ Nikita\ Gerasimov\r\n\ @version\ 2018-02-19\r\n
+comment1.params=veer
+comment1.target=VeeringTurtle(double)
+comment2.params=turnAngle
+comment2.target=void\ turn(double)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=DottedTurtle
+comment0.text=\r\n\ Another\ implementation\ of\ {@code\ Turtle}\ that\ draws\ a\ series\ of\r\n\ circles\ in\ its\ wake.\r\n\ @author\ Ilkka\ Kokkarinen\r\n
+comment1.params=step\ diam
+comment1.target=DottedTurtle(double,\ double)
+comment1.text=\r\n\ Constructor\ to\ determine\ the\ step\ size\ and\ the\ diameter\ of\ the\r\n\ circles\ that\ the\ turtle\ draws\ behind\ it.\r\n\ @param\ step\ The\ step\ distance\ between\ the\ consecutive\ circles.\r\n\ @param\ diam\ The\ diameter\ of\ each\ circle.\r\n
+comment2.params=dist
+comment2.target=void\ move(double)
+comment2.text=\r\n\ Move\ forwards,\ drawing\ the\ circles\ along\ the\ line\ of\ movement.\r\n\ @param\ dist\ The\ distance\ to\ move\ forward.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

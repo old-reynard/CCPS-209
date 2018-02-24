@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CutoffIterator
+comment0.text=\r\n\ Lab\ 201\r\n\ @author\ Nikita\ Gerasimov\ \r\n\ @date\ 2018-02-16\r\n
+comment1.params=it\ limit
+comment1.target=CutoffIterator(java.util.Iterator,\ int)
+comment2.params=
+comment2.target=java.lang.Object\ next()
+comment3.params=
+comment3.target=boolean\ hasNext()
+numComments=4

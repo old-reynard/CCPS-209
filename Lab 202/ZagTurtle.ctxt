@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ZagTurtle
+comment0.text=\r\n\ A\ "fractalizing"\ turtle\ decorator\ that\ breaks\ each\ line\ into\r\n\ recursive\ fractal\ parts\ to\ create\ a\ self-similar\ zagging\ pattern.\r\n\ @author\ Ilkka\ Kokkarinen\r\n
+comment1.params=turtle\ angle\ cutoff
+comment1.target=ZagTurtle(Turtle,\ double,\ double)
+comment1.text=\r\n\ To\ create\ a\ {@code\ ZagTurtle},\ you\ need\ to\ provide\ the\ zagging\ angle\r\n\ and\ the\ cutoff\ threshold\ when\ to\ stop\ subdividing\ the\ motion.\r\n\ @param\ angle\ The\ angle\ of\ each\ individual\ zag.\r\n\ @param\ cutoff\ Once\ the\ individual\ movement\ is\ shorter\ than\ this,\ no\ zagging\ is\ done.\r\n
+comment2.params=dist
+comment2.target=void\ move(double)
+comment2.text=\r\n\ The\ zagging\ motion\ is\ implemented\ by\ a\ couple\ of\ turns\ and\ moves,\ ending\r\n\ the\ turtle\ with\ the\ same\ position\ and\ heading\ as\ if\ the\ move\ had\ been\ done\r\n\ directly\ as\ given.\r\n\ @param\ dist\ The\ distance\ to\ move\ forward\ to\ the\ current\ heading.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

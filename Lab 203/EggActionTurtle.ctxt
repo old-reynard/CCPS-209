@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EggActionTurtle
+comment1.params=diameter\ prob
+comment1.target=EggActionTurtle(double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=VowelComparator
+comment1.params=s1\ s2
+comment1.target=int\ compare(java.lang.String,\ java.lang.String)
+comment2.params=s
+comment2.target=int\ countVowels(java.lang.String)
+comment3.params=s
+comment3.target=java.lang.String\ reversed(java.lang.String)
+numComments=4

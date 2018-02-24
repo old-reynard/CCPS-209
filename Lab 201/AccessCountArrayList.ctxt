@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=AccessCountArrayList
+comment0.text=\r\n\ Lab\ 201\r\n\ @date\ 2018-02-16\r\n\ @author\ Nikita\ Gerasimov\r\n\ \r\n
+comment1.params=idx
+comment1.target=java.lang.Object\ get(int)
+comment2.params=idx\ element
+comment2.target=java.lang.Object\ set(int,\ java.lang.Object)
+comment3.params=
+comment3.target=int\ getGetCount()
+comment4.params=
+comment4.target=int\ getSetCount()
+comment5.params=
+comment5.target=void\ resetCounts()
+numComments=6

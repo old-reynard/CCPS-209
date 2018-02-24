@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RainbowTurtleDecorator
+comment0.text=\r\n\ \r\n\r\n\ @author\ Nikita\ Gerasimov\r\n\ @version\ 2018-02-19\r\n
+comment1.params=turtle
+comment1.target=RainbowTurtleDecorator(Turtle)
+comment2.params=dist
+comment2.target=void\ move(double)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

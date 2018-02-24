@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CurveTurtle
+comment0.text=\r\n\ An\ implementation\ of\ Turtle\ that\ remembers\ the\ last\ three\ points\ that\ it\r\n\ has\ visited,\ and\ draws\ a\ Bezier\ curve\ through\ them.\ Smooth\ and\ suitable\r\n\ for\ rendering\ fractals\ as\ L-systems,\ as\ the\ corners\ become\ more\ obvious.\r\n\ @author\ Ilkka\ Kokkarinen\r\n
+comment1.params=nx\ ny
+comment1.target=void\ setPosition(double,\ double)
+comment1.text=\r\n\ Set\ the\ absolute\ position\ of\ the\ turtle.\ Setting\ the\ position\r\n\ cancels\ the\ memory\ of\ the\ previous\ positions.\r\n\ @param\ x\ The\ x-coordinate\ of\ the\ absolute\ position.\r\n\ @param\ y\ The\ y-coordinate\ of\ the\ absolute\ position.\r\n
+comment2.params=dist
+comment2.target=void\ move(double)
+comment2.text=\r\n\ Move\ the\ turtle\ forward\ the\ given\ distance.\ A\ curve\ is\ drawn\ only\ when\ the\r\n\ number\ of\ moves\ is\ odd,\ as\ a\ cubic\ curve\ connecting\ the\ current\ position\ and\r\n\ the\ position\ two\ steps\ ago,\ using\ the\ previous\ position\ as\ control\ point.\r\n\ @param\ dist\ The\ distance\ to\ move\ forward.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=LSystem
+comment1.params=turtle\ stepSize\ turnAngle
+comment1.target=LSystem(Turtle,\ double,\ double)
+comment2.params=
+comment2.target=LSystem()
+comment3.params=rules\ program\ depth
+comment3.target=void\ execute(java.util.Map,\ java.lang.String,\ int)
+comment4.params=c\ depth
+comment4.target=void\ handleChar(char,\ int)
+numComments=5
