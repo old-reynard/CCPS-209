@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Arrays;
-import java.util.Scanner;
-import java.util.stream.Stream;
+import java.util.*;  
+
 /**
  * class UnixCommands.
  *
@@ -36,14 +36,27 @@ public class UnixCommands
     }
 
     
-    public void tail(Reader in, Writer out, int lines) throws IOException {
+    public static void tail(Reader in, Writer out, int lines) throws IOException {
+        BufferedReader br = new BufferedReader(in);
+        PrintWriter pw = new PrintWriter(out);
+        String line;
+        LinkedList<String> buffer = new LinkedList();
         
+        while((line = br.readLine()) != null) {
+            if (buffer.size() >= lines) {buffer.removeFirst();}
+            buffer.add(line);
+        }
+        String[] array = buffer.toArray(new String[buffer.size()]);
+        for (int i = 0; i < array.length ; i++) { //buffer.size()
+            pw.write(array[i]); //buffer.get(i)
+            pw.write('\n');
+        }
+        pw.flush();
     }
     
     public static void main(String[] args) throws IOException {
         Reader r = new InputStreamReader(new FileInputStream("warandpeace.txt"), "UTF-8"); 
-        int[] a=wc(r);
-        System.out.println(a[0] + " " + a[1] + " " + a[2]);
+        tail(r, new OutputStreamWriter(System.out), 100);
         r.close();
     }
 }
