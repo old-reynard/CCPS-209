@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=TestWordProblems
+comment1.params=
+comment1.target=void\ readWords()
+comment2.params=rng\ spec
+comment2.target=char\ randomChar(java.util.Random,\ char)
+comment3.params=rng\ len\ spec
+comment3.target=java.lang.String\ buildString(java.util.Random,\ int,\ char)
+comment4.params=
+comment4.target=void\ testFindMatchingWords()
+comment5.params=
+comment5.target=void\ testFindAnagrams()
+comment6.params=
+comment6.target=void\ testFindSemordnilaps()
+comment7.params=
+comment7.target=void\ testFindMatchingWordsStar()
+numComments=8

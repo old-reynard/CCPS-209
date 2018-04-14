@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=WordProblems
+comment0.text=\r\n\ Java\ lab\ 9\r\n\r\n\ @author\ Nikita\ Gerasimov\r\n\ @date\ 2018-02-05\r\n
+comment1.params=words\ pattern
+comment1.target=java.util.ArrayList\ findMatchingWords(java.util.ArrayList,\ java.lang.String)
+comment2.params=words
+comment2.target=java.util.ArrayList\ findSemordnilaps(java.util.ArrayList)
+comment3.params=words\ word
+comment3.target=java.util.ArrayList\ findAnagrams(java.util.ArrayList,\ java.lang.String)
+comment4.params=words\ pattern
+comment4.target=java.util.ArrayList\ findMatchingWordsStar(java.util.ArrayList,\ java.lang.String)
+numComments=5
